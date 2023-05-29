@@ -16,17 +16,13 @@
   </head>
   <body>
     <header>
-      <span class="logo"
-        ><img
-          src="img/Profile_Picture.png"
-          width="150px"
-          height="150px"
-          alt="Profile picture"
-      /></span>
-      <h1>Eduardo Luna</h1>
-      <span><a href="about.html">About me</a></span>
-    </header>
-    <main>
+      <section class="profile-container">
+        <span class="profile-picture"
+          ><img src="img/Profile_Picture.png" alt="Profile picture"
+        /></span>
+        <span class="profile-name"><h1>Eduardo O. Luna S.</h1></span>
+        <span class="profile-about"><a href="about.html">About me</a></span>
+      </section>
       <section>
         <h2 class="title">Datos personales</h2>
         <ul>
@@ -35,39 +31,80 @@
           <li><strong>Lugar de nacimiento:</strong> Bogotá D.C., Colombia</li>
         </ul>
       </section>
-      <section>
-        <h2 class="title">Formación académica</h2>
-        <dl>
-          <dt><strong>1956-1961:</strong></dt>
-          <dd>Universidad del espantapájaros Licenciatura en aeronaútica</dd>
-          <dt><strong>1952-1956:</strong></dt>
-          <dd>Secundario Gotham Bachiller con especialización en trucos</dd>
-        </dl>
-      </section>
-      <section>
-        <h2 class="title">Experiencia laboral</h2>
-        <dl>
-          <dt><strong>1975-1985:</strong></dt>
-          <dd>Desocupado Sin trabajo porquer se me rompió el batimovil</dd>
-          <dt><strong>1965-1975:</strong></dt>
-          <dd>
-            Cazavillanos y demás chusma Atrapé a Gatubela a joker a Victor Fries
-            lo dejé porque se me congeló la capa
-          </dd>
-          <dt><strong>1962-1965:</strong></dt>
-          <dd>
-            Aprendiz de superhéroes Hice pasantía con Superman. Opté por usar
-            mascara porque no pude aprender a peinarme el rulo
-          </dd>
-        </dl>
+    </header>
+    <main>
+      <aside class="left-banner">Profile information</aside>
+      <section class="general-information">
+        <article>
+          <h2 class="title">Academic Background</h2>
+          <h3>University</h3>
+          <dl class="date-event-list">
+            <dt>2016 - Mechatronic Engineer</dt>
+            <dd>Universidad Nacional de Colombia, Bogotá D.C.</dd>
+          </dl>
+          <h3>Diplomas</h3>
+          <dl class="date-event-list">
+            <dt>2021 - Diploma machine learning and data science</dt>
+            <dd>Universidad Nacional de Colombia, Bogotá D.C.</dd>
+          </dl>
+          <h3>Other Courses</h3>
+          <dl class="date-event-list">
+            <dt>2021-2023 - PRO Student</dt>
+            <dd>
+              PLATZI, Bogotá D.C.
+              <a href="https://www.platzi.com/p/eolunas" target="_blank"
+                >Personal Profile</a
+              >
+            </dd>
+            <dt>
+              2019 - Desarrollo de aplicaciones en excel utilizando Macros y
+              Visual Basic
+            </dt>
+            <dd>Universidad Nacional de Colombia, Bogotá D.C.</dd>
+            <dt>2017 - CURSO PROFICY HMI SCADA IFIX 5.8</dt>
+            <dd>URIGO, Bogotá D.C.</dd>
+          </dl>
+        </article>
+
+        <article>
+          <h2 class="title">Work Experience</h2>
+          <dl class="date-event-list">
+            <dt>2019 - 2021: Electronic Engineering Manager</dt>
+            <dd>
+              VC999 Packaging Systems Colombia S.A.S., 1 year y 10 months;
+              Technical manager in charge of designing and integrating
+              production lines, architecture of machinery using optimal devices
+              according to costumer necessities; designer and programming leader
+              of new applications.
+            </dd>
+            <dt>2017 - 2019: Project Engineer,</dt>
+            <dd>
+              VC999 Packaging Systems Colombia S.A.S., 2 years y 4 months
+              Machinery and end line developer, knowledge about programs from
+              different companies like Rockwell Automation, Mitsubishi, Omron,
+              Panasonic, and others, Well-knowledge in [PLC - HMI - Servomotors
+              - VFD - Sensors & Actuators] implementing [Ladder - Structured
+              text - Function diagram - Communication Protocols] Skills:
+              Programmable Logic Controller (PLC), Piping and Instrumentation
+              Drawing (P&ID), SCADA, HMI Programming
+            </dd>
+            <dt>2016-2017: Mechatronic engineer,</dt>
+            <dd>
+              Teppack Colombia Ltda, 11 months Multidisciplinary engineer in
+              charge of bringing support to mechanical and electronic areas
+              developing electromechanical mechanisms like conveyor belts,
+              grippers and new feature for VFFS machines.
+            </dd>
+          </dl>
+        </article>
       </section>
     </main>
     <footer>
       <span>
         eolunas@gmail.com
         <a href="www.linkedin.com/eolunas"
-          ><i class="fa-brands fa-linkedin"></i
-        >@eolunas</a>
+          ><i class="fa-brands fa-linkedin"></i>@eolunas</a
+        >
         <i class="fa-brands fa-discord"></i>eolunas#6126
         <a href="www.instagram.com/eolunas">
           <img src="img/ico_instagram.png" alt=""

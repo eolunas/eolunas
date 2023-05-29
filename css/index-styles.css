@@ -25,16 +25,16 @@ header {
 .profile-picture {
   position: relative;
   top: 20px;
-  left: -50px;
+  left: -65px;
   margin: 15px;
   z-index: 1;
 }
 
 .profile-picture img {
-  width: 160px;
-  height: 160px;
+  width: 180px;
+  height: 180px;
   border: 4px solid #b9d1b8;
-  border-radius: 160px;
+  border-radius: 180px;
   outline: 5px solid #b9d1b8;
   outline-offset: -6px;
 }
@@ -42,35 +42,38 @@ header {
 .profile-name {
   background-color: #005677;
   position: relative;
-  top: -110px;
-  left: 110px;
+  top: -125px;
+  left: 100px;
 }
 
 .profile-name p {
-  margin: 5px;
+  margin: 10px;
+  font-size:18px;
   position: relative;
   left: 250px;
 }
 
 h1 {
-  min-width: 400px;
+  min-width: 450px;
   padding: 10px;
+  padding-left: 30px;
   border-radius: 10px;
   border: 5px solid #b9d1b8;
   background-color: #dee3de;
   text-align: center;
   letter-spacing: 0.3rem;
-  font-size: xx-large;
+  font-size: 40px;
   color: #3b3d33;
 }
 
 .profile-about {
+  font-size:18px;
   padding: 10px;
   border-radius: 10px;
   background-color: #e3eed8;
   color: #005677;
   position: relative;
-  top: -135px;
+  top: -165px;
   left: 100px;
   z-index: 1;
 }
@@ -117,12 +120,32 @@ h1 {
   margin-bottom: 20px;
 }
 /* ------------   Estilos footer  ------------ */
-footer {
+.index-footer {
   background-color: #e3eed8;
-  text-align: center;
-  line-height: 50px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 30px;
+  justify-content: center;
+  height: 90px;
+  margin-top: 50px;
+  padding: 50px 0 20px;
 }
 
-footer span {
+.copyright {
+  margin-top: 20px;
+  font-weight: normal;
+  color: white;
+  font-size: 16px;
+  padding: 10px 0;
   text-align: center;
+}
+
+.footer-link {
+  color: #7bab4b;
+  margin: 20px;
+}
+
+.footer-link:hover {
+  color: #ffffff;
 }

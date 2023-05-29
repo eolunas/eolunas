@@ -13,6 +13,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css"
+      integrity="sha512-Z0kTB03S7BU+JFU0nw9mjSBcRnZm2Bvm0tzOX9/OuOuz01XQfOpa0w/N9u6Jf2f1OAdegdIPWZ9nIZZ+keEvBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header>
@@ -20,20 +27,26 @@
         <span class="profile-picture"
           ><img src="img/Profile_Picture.png" alt="Profile picture"
         /></span>
-        <span class="profile-name"><h1>Eduardo O. Luna S.</h1></span>
-        <span class="profile-about"><a href="about.html">About me</a></span>
-      </section>
-      <section>
-        <h2 class="title">Datos personales</h2>
-        <ul>
-          <li><strong>Nombre completo:</strong> Eduardo Oswaldo Luna Silva</li>
-          <li><strong>Fecha de nacimiento:</strong> 02/08/1993</li>
-          <li><strong>Lugar de nacimiento:</strong> Bogotá D.C., Colombia</li>
-        </ul>
+        <span class="profile-name">
+          <h1>Eduardo O. Luna S.</h1>
+          <p>
+            <i class="fa-solid fa-location-dot" style="color: #3d853f"></i>
+            Bogotá D.C., Colombia
+          </p>
+          <p>
+            <i class="fa-solid fa-at" style="color: #3d853f"></i>
+            eolunas@gmail.com
+          </p>
+        </span>
+        <span class="profile-about"
+          ><i class="fa-regular fa-address-card" style="color: #3d853f"></i
+          ><a href="about.html"> About me </a
+          ><i class="fa-solid fa-hand-point-left" style="color: #3d853f"></i
+        ></span>
       </section>
     </header>
     <main>
-      <aside class="left-banner">Profile information</aside>
+      <aside class="left-banner"></aside>
       <section class="general-information">
         <article>
           <h2 class="title">Academic Background</h2>
@@ -100,16 +113,19 @@
       </section>
     </main>
     <footer>
-      <span>
-        eolunas@gmail.com
-        <a href="www.linkedin.com/eolunas"
-          ><i class="fa-brands fa-linkedin"></i>@eolunas</a
-        >
-        <i class="fa-brands fa-discord"></i>eolunas#6126
-        <a href="www.instagram.com/eolunas">
-          <img src="img/ico_instagram.png" alt=""
-        /></a>
-      </span>
+      <ul>
+        <li>
+          <a href="www.linkedin.com/eolunas"
+            ><i class="fa-brands fa-linkedin"></i>@eolunas</a
+          >
+        </li>
+        <li>
+          <a href="www.instagram.com/eolunas">
+            <img src="img/ico_instagram.png" alt=""
+          />@eolunas</a>
+        </li>
+        <li><i class="fa-brands fa-discord"></i>eolunas#6126</li>
+      </ul>
     </footer>
   </body>
 </html>

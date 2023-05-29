@@ -11,7 +11,7 @@
 /* ------------  Estilos header   ------------ */
 header {
   background-color: #e6e6e6;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
   display: flex;
   justify-content: space-between;
 }
@@ -44,7 +44,14 @@ header {
   left: 110px;
 }
 
+.profile-name p{
+  margin: 5px;
+  position: relative;
+  left: 250px;
+}
+
 h1 {
+  min-width: 400px;
   padding: 10px;
   border-radius: 10px;
   border: 5px solid #b9d1b8;
@@ -61,8 +68,8 @@ h1 {
   background-color: #e3eed8;
   color: #005677;
   position: relative;
-  top: -75px;
-  left: 122px;
+  top: -120px;
+  left: 110px;
   z-index: 1;
   
 }
@@ -85,11 +92,15 @@ main {
 
 .left-banner {
   background-color: #bac7ab;
-  width: 243px;
+  width: 20px;
 }
 
 .general-information {
   width: 100%;
+}
+
+.h3{
+  color: #739505;
 }
 
 .date-event-list dt{
@@ -103,8 +114,7 @@ main {
 }
 /* ------------   Estilos footer  ------------ */
 footer {
-  height: 50px;
-  background-color: #005677;
+  background-color: #e3eed8;
   text-align: center;
   line-height: 50px;
 }

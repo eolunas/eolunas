@@ -1,17 +1,19 @@
-<h1 align="center">Hi 👋, I'm Eduardo Luna</h1>
-<h3 align="center">A passionate Front-End Developer from Colombia</h3>
+<h1 align="center">Hi there!👋, I'm Eduardo Luna</h1>
+<h3 align="center">:green_heart: A passionate Front-End Developer from Colombia :earth_americas: </h3>
 
-- :octocat: I’m currently studying **Certified Tech Developer** from **Digital House** in colaboration with **Globant and MELI**
+<h3 align="left"> :mag_right: Take your time to check my  <a href="https://eolunas.github.io/eolunas/"> Curriculum Vitae </a>:mag_right: </h3>
 
-- :computer: I’m looking to collaborate with **Developer communities**
+- :octocat: I’m currently studying **Certified Tech Developer** from **Digital House** in colaboration with **Globant and MELI**.
 
-- 💬 Ask me about **JavaScript, Data science, ML and Front-End**
+- :computer: I’m looking to collaborate with **Developer communities** and expand my skils.
 
-- 📫 How to reach me **eolunas@gmail.com**
+- 💬 Ask me about **JavaScript, Data science, ML and Front-End**.
 
-- ⚡ Fun fact **I'm still in constant search of my passions**
+- 📫 How to reach me **eolunas@gmail.com**.
 
-<h3 align="left">Connect with me:</h3>
+- ⚡ Fun fact **I'm still in constant search of my passions**.
+
+<h3 align="left"> Feel free to get in contact with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/eolunas" target="blank">
   <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="linkedin image" height="30" width="40" />
@@ -21,6 +23,7 @@
 </a>
 </p>
 
+<!-- This is a comment 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> 
   <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer"> 
@@ -42,3 +45,5 @@
     <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> 
   </a> 
 </p>
+
+-->

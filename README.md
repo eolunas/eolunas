@@ -5,7 +5,7 @@
 
 - :octocat: I’m currently studying **Certified Tech Developer** from **Digital House** in colaboration with **Globant and MELI**.
 
-- :computer: I’m looking to collaborate with **Developer communities** and expand my skils.
+- :computer: I’m looking to collaborate with **Developer communities** and expand my skills to achieve my goals.
 
 - 💬 Ask me about **JavaScript, Data science, ML and Front-End**.
 

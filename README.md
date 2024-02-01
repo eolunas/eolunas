@@ -1,7 +1,7 @@
 <h1 align="center">Hi there!👋, I'm Eduardo Luna</h1>
 <h3 align="center">:green_heart: A passionate Front-End Developer from Colombia :earth_americas: </h3>
 
-<h3 align="left"> :mag_right: Take your time to check my  <a href="https://eolunas.github.io/eolunas/"> Curriculum Vitae </a>:mag_right: </h3>
+<h3 align="left"> :mag_right: Take your time to check my  <a href="https://eolunas.github.io/eolunas-dev/"> Portfolio </a>:mag_right: </h3>
 
 - :octocat: I’m currently studying **Certified Tech Developer** from **Digital House** in colaboration with **Globant and MELI**.
 
